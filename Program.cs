@@ -98,6 +98,20 @@ internal class Program
                 break;
         }
 
+        Console.WriteLine("--------------------------");
+
+        // ternary operator -> if statement is true take follwing symbole "?" directly
+        string sizeLabel;
+
+        sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+
+        Console.WriteLine(sizeLabel);
+
+        Console.WriteLine("--------------------------");
+
+
+
+
 
 
 
