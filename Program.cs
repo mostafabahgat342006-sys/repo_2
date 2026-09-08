@@ -160,6 +160,18 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        foreach (string book in Books)
+        {
+            if (book == "The Pragmatic Programmer")
+            {
+                // continue -> just skip this period and continue 
+                continue;
+            }
+
+            Console.WriteLine(book);
+        }
+
+
 
 
 
