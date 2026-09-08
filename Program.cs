@@ -109,6 +109,16 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        string[] Books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+        for (int i = 0; i < Books.Length; i++)
+        {
+            // (i+1) because index start from 0 but natural numbering start from 1
+            Console.WriteLine((i+1) + ": "+ Books[i]);
+        }
+
+        Console.WriteLine("--------------------------");
+
 
 
 
