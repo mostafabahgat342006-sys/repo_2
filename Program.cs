@@ -119,6 +119,15 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        int index = 0;
+
+        while (index < Books.Length)
+        {
+            Console.WriteLine(Books[index]);
+            index++;
+        }
+
+        Console.WriteLine("--------------------------");
 
 
 
