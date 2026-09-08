@@ -39,13 +39,23 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
-        string newtitle = "Clean Code";
+        string newTitle = "Clean Code";
         int pages = 464;
-        Console.WriteLine("Book: " + newtitle + " , " + "pages: " + pages + " .");
+        Console.WriteLine("Book: " + newTitle + " , " + "pages: " + pages + " .");
 
         Console.WriteLine("--------------------------");
 
-        Console.WriteLine($"Book: {newtitle} , pages: {pages} .");
+        Console.WriteLine($"Book: {newTitle} , pages: {pages} .");
+
+        Console.WriteLine("--------------------------");
+
+        string sentence = string.Format(
+            "Book: {0}, Pages: {1} .",
+                newTitle,
+                pages
+
+            );
+        Console.WriteLine(sentence);
 
         Console.WriteLine("--------------------------");
 
