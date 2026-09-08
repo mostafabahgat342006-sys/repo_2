@@ -39,6 +39,14 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        string newtitle = "Clean Code";
+        int pages = 464;
+        Console.WriteLine("Book: " + newtitle + " , " + "pages: " + pages + " .");
+
+        Console.WriteLine("--------------------------");
+
+
+
 
 
 
