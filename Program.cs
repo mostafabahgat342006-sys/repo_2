@@ -147,6 +147,20 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        foreach (string book in Books)
+        {
+            if (book == "Refactoring")
+            {
+                // break -> stop and exit from loop 
+                break;
+            }
+
+            Console.WriteLine(book);
+        }
+
+        Console.WriteLine("--------------------------");
+
+
 
 
 
