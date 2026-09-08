@@ -30,6 +30,18 @@ internal class Program
 
         Console.WriteLine(text.ToString());
 
+        Console.WriteLine("--------------------------");
+
+        // Replace( old name , new name )
+        text.Replace("Book List", "Library");
+
+        Console.WriteLine(text.ToString());
+
+        Console.WriteLine("--------------------------");
+
+
+
+
 
 
 
