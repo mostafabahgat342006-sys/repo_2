@@ -72,7 +72,14 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        bool isAvailable = true;
 
+        if (pages > 300 && isAvailable)
+        {
+            Console.WriteLine("You can borrow this book");
+        }
+
+        Console.WriteLine("--------------------------");
 
 
 
