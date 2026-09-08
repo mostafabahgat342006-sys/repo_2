@@ -45,6 +45,12 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        Console.WriteLine($"Book: {newtitle} , pages: {pages} .");
+
+        Console.WriteLine("--------------------------");
+
+
+
 
 
 
