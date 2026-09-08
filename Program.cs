@@ -22,6 +22,16 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        // stringBuilder -> modify in the same string 
+        StringBuilder text = new StringBuilder();
+
+        text.Append("Book List");
+        text.Append(" - Updated");
+
+        Console.WriteLine(text.ToString());
+
+
+
 
 
 
