@@ -81,7 +81,22 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        string refTitle = "Refactoring";
 
+        switch (refTitle)
+        {
+            case "Clean Code":
+                Console.WriteLine("Great choice!");
+                break;
+
+            case "Refactoring":
+                Console.WriteLine("Nice pick!");
+                break;
+
+            default:
+                Console.WriteLine("Never heard of it");
+                break;
+        }
 
 
 
