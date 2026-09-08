@@ -12,6 +12,18 @@ internal class Program
         Console.WriteLine(title);
         Console.WriteLine(upperTitle);
 
+        Console.WriteLine("--------------------------");
+
+        // interning -> the two point in same object 
+        string title1 = "clean code";
+        string title2 = "clean code";
+
+        Console.WriteLine(ReferenceEquals(title1,title2));
+
+        Console.WriteLine("--------------------------");
+
+
+
 
 
 
