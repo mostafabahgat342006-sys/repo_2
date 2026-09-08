@@ -171,6 +171,21 @@ internal class Program
             Console.WriteLine(book);
         }
 
+        Console.WriteLine("--------------------------");
+
+        static void PrintFirstBook(string[] Books)
+        {
+            if (Books.Length == 0)
+            {
+                return;
+            }
+            Console.WriteLine(Books[0]);
+        }
+        // calling the method 
+        PrintFirstBook(Books);
+
+
+
 
 
 
