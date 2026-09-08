@@ -140,6 +140,15 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        foreach (string book in Books)
+        {
+            Console.WriteLine(book);
+        }
+
+        Console.WriteLine("--------------------------");
+
+
+
 
 
 
