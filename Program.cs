@@ -59,6 +59,22 @@ internal class Program
 
         Console.WriteLine("--------------------------");
 
+        int nwePages = 464;
+
+        if( nwePages > 300 )
+        {
+            Console.WriteLine("Long Book");
+        }
+        else
+        {
+            Console.WriteLine("Short Book");
+        }
+
+        Console.WriteLine("--------------------------");
+
+
+
+
 
 
 
